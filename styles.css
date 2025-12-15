@@ -1,0 +1,261 @@
+@media screen and (max-width: 430px) {
+  * {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+  }
+  body {
+    background-color: hsl(226, 43%, 10%);
+  }
+  .jr {
+    display: flex;
+    padding-top: 5px;
+    gap: 7px;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+  }
+
+  .time {
+    padding-top: 80px;
+    margin-inline: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .jeremy {
+    background-color: hsl(246, 80%, 60%);
+
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    border-radius: 10px;
+    z-index: 1;
+  }
+
+  .jeremy img {
+    border-radius: 50%;
+    border: solid white;
+  }
+  .jeremy p {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+  }
+  .jeremy h3 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .btn-container {
+    background-color: hsl(235, 46%, 20%);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+  }
+
+  .filter-btn {
+    color: rgb(168, 165, 165);
+    padding-left: 20px;
+    border-style: none;
+    padding-top: 8px;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: 200;
+    cursor: pointer;
+    transition: all 0.3 linear;
+  }
+  .filter-btn:hover {
+    color: white;
+    font-weight: 500;
+  }
+  .time-container {
+    background-color: hsl(15, 100%, 70%);
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+  }
+  .work-img {
+    width: 50px;
+    padding-left: 300px;
+  }
+
+  .parent {
+    position: relative;
+  }
+  .sub-control {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 10rem;
+  }
+  .dashboard {
+    background-color: hsl(235, 46%, 20%);
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 35px;
+  }
+  .w {
+    display: flex;
+    gap: 260px;
+    margin-inline: 30px;
+    padding-top: 1.5rem;
+  }
+  .w p {
+    color: white;
+  }
+  .current {
+    color: white;
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+  }
+  .previous {
+    color: rgb(168, 165, 165);
+    font-weight: 100;
+    padding-left: 15rem;
+    margin-top: -1.5rem;
+
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+  }
+  body {
+    background-color: hsl(226, 43%, 10%);
+  }
+  .control {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .time {
+    padding-top: 100px;
+    margin-inline: 20px;
+
+    display: flex;
+    gap: 1.5rem;
+  }
+  .jeremy {
+    background-color: hsl(246, 80%, 60%);
+    width: 200px;
+    height: 270px;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  .jeremy img {
+    border-radius: 50%;
+    border: solid white;
+  }
+  .jeremy p {
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+  }
+  .jeremy h3 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .btn-container {
+    background-color: hsl(235, 46%, 20%);
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 280px;
+    z-index: -1;
+  }
+  .filter-btn {
+    color: rgb(168, 165, 165);
+    padding-top: 1.5rem;
+    padding-left: 20px;
+    border-style: none;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-weight: 200;
+    cursor: pointer;
+    transition: all 0.3 linear;
+  }
+  .filter-btn:hover {
+    color: white;
+    font-weight: 500;
+  }
+  .time-container {
+    background-color: hsl(15, 100%, 70%);
+    width: 220px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  .work-img {
+    width: 50px;
+    padding-left: 160px;
+  }
+  .parent {
+    position: relative;
+  }
+  .sub-control {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 10rem;
+  }
+  .dashboard {
+    background-color: hsl(235, 46%, 20%);
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    position: absolute;
+    top: 35px;
+  }
+  .w {
+    display: flex;
+    gap: 100px;
+    margin-inline: 30px;
+    padding-top: 1rem;
+  }
+  .w p {
+    color: white;
+  }
+  .current {
+    color: white;
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+  }
+  .previous {
+    color: rgb(168, 165, 165);
+    font-weight: 100;
+    padding-left: 1.8rem;
+    padding-top: 0.5rem;
+    font-size: 12px;
+  }
+}
